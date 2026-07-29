@@ -1,1 +1,297 @@
 /* место для вашего кода */
+body {
+  min-width: 850px;
+  font-family: Raleway;
+}
+
+.header{
+  display: flex;
+  width: 1100px;
+  height: 293px;
+}
+
+.menu {
+  margin-top: 133px;
+  margin-left: 50px;
+  margin-right: 0px;
+  width: 400px;
+  height: 22px;
+  font-size: 18px;
+  font-style: Regular;
+  display: flex;
+}
+
+.circle {
+  width: 6px;
+  height: 6px;
+  margin-top: 9px;
+  margin-left: 13px;
+  margin-right: 13px;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.logo {
+  width: 148px;
+  height:105px;
+  margin-top: 92px;
+  margin-left: 30px;
+}
+
+.contacts {
+  width: 240px;
+  height:98px;
+  margin-top: 95px;
+  margin-left: 184px;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.phone {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.email {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.cover {
+  width: 1100px;
+  height: 757px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.title {
+  width: 1000px;
+  height: 385px;
+  margin-left: 50px;
+  padding-top: 165px;
+  padding-bottom: 106px;
+  font-style: Bold;
+  font-size: 100px;
+  letter-spacing: 30px;
+}
+
+.t1 {
+  text-align: left;
+}
+
+.t2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.t3 {
+  text-align: right;
+}
+
+.description {
+  width: 1000px;
+  height: 51px;
+  margin-top: 277.5px;
+  margin-left: 50px;
+  margin-right: 0px;
+  font-size: 22px;
+  display: flex;
+}
+.text_description {
+  word-spacing: 15px;
+  margin-top: 11.5px;
+}
+.btn_stavka {
+  width: 256px;
+  height: 51px;
+  margin-left: 107px;
+  margin-right: 0px;
+  color: white;
+  background:none;
+  border-color: white;
+  text-transform: uppercase;
+}
+
+.lots {
+  margin-top: 180px;
+  width: 1052px;
+  height: 723px;
+  margin-left: 24px;
+}
+
+.title_lots {
+  width: 121px;
+  height: 47px;
+  margin-left: 40px;
+  font-style: Bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.frames {
+  position: relative;
+  margin-top: 27px;
+  display: flex;
+  width: 1100px;
+  height: 596px;
+}
+
+.frame1 {
+  width: 334px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.frame2 {
+  width: 334px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.frame3 {
+  width: 334px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.lot_title {
+  text-transform: uppercase;
+  width: 254px;
+  height: 82px;
+  margin-top: 48px;
+  margin-left: 40px;
+  font-style: Bold;
+  font-size: 22px;
+  font-family: Raleway;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.lot_description {
+  position: absolute;
+  width: 254px;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-style: Regular;
+  font-size: 20px;
+  bottom: 48px;
+}
+
+.more {
+  width: 192px;
+  height: 25px;
+  margin-left: 40px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-top: 23px;
+  font-style: Regular;
+  font-size: 20px;
+}
+
+.about {
+  width: 1052px;
+  height: 595px;
+  margin-top: 120px;
+  margin-left: 24px;
+  position: relative;
+}
+
+.logo_column {
+  width: 240px;
+  height: 240px;
+  border: 1px solid black;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: center;
+  position: absolute;
+  left: 47px;
+  top: 35px;
+}
+
+.logo_white {
+  width: 148px;
+  height: 114px;
+}
+
+.about_column {
+  width: 693px;
+  height: 449px;
+  position: absolute;
+  top: 133px;
+  left: 359px;
+}
+
+.about_title {
+  width: 291px;
+  height: 47px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-style: Bold;
+
+}
+
+.description_block {
+  width: 688px;
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+.description_par {
+  margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  width: 1100px;
+  height: 180px;
+  margin-top: 180px;
+}
+
+.contacts_footer {
+  width: 264.57px;
+  height:98px;
+  margin-top: 0px;
+  margin-left: 50px;
+  font-size: 18px;
+  font-style: Regular;
+}
+
+.socials {
+  display: flex;
+  margin-left: 178px;
+}
+
+.social {
+  width: 48px;
+  height: 48px;
+  margin-right: 48px;
+}
+
+.menu_footer {
+  text-align: center;
+  font-style: normal;
+  margin-left: 153.43px;
+}
+
+li {
+  list-style-type: none;
+}
