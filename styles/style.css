@@ -2,6 +2,7 @@
 body {
   min-width: 850px;
   font-family: Raleway;
+  overflow-x: hidden;
 }
 
 .header {
