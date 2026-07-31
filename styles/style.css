@@ -57,7 +57,7 @@
   align-items: end;
 
 }
-.link__header__adress{
+.link__header__adress {
   display: flex;
   padding-right: 107px;
 }
@@ -261,7 +261,6 @@
 
 .about__column_right {
   display: flex;
-  align-items: center;
   flex-direction: column;
   align-items: flex-start;
   margin-top: 101px;
