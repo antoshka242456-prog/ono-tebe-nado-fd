@@ -1,4 +1,7 @@
 /* место для вашего кода */
+body {
+  overflow-x: hidden;
+}
 .header{
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -126,35 +129,34 @@ address {
 .lots__heading {
   width: 121px;
   height: 47px;
-  margin-left: 40px;
+  padding-left: 40px;
   font-style: Bold;
   font-size: 40px;
   text-transform: uppercase;
 }
 
 .lots__card-list {
-
   position: relative;
-  margin-top: 27px;
   display: flex;
   width: 1100px;
   height: 596px;
-  gap: 24px 24px;
+  gap: 0px 24px;
 }
 
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
-  background-repeat: no-repeat;
-  background-position: center;
   color: white;
+  padding-top: 27px; 
 }
 
 .card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-01.jpg);
   background-size: cover;
   width: 334px;
   min-height: 596px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card_type_book {
@@ -168,18 +170,19 @@ address {
 
 .card_type_picture {
   width: 334px;
-   min-height: 596px;
+  min-height: 596px;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
+.card {
+  padding-top: 48px;
+}
 .card__title {
   text-transform: uppercase;
   width: 254px;
   height: 82px;
-  margin-top: 48px;
   margin-left: 40px;
   font-style: Bold;
   font-size: 22px;
@@ -200,10 +203,8 @@ address {
 .lots__look-more-link {
   width: 192px;
   height: 25px;
-  margin-left: 40px;/*
-  text-decoration: underline;
-  text-underline-offset: 3px;*/
-  margin-top: 23px;
+  margin-left: 40px;
+  padding-top: 50px;
   color: black;
   font-style: Regular;
   font-size: 20px;
